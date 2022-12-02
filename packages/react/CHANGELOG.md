@@ -1,5 +1,11 @@
 # @mestanza-ignite-ui/react
 
+## 1.1.0
+
+### Minor Changes
+
+- Fix react project devDependencies
+
 ## 1.0.3
 
 ### Patch Changes
