@@ -1,5 +1,11 @@
 # @mestanza-ignite-ui/tokens
 
+## 1.0.3
+
+### Patch Changes
+
+- b3b4261: Add new test color
+
 ## 1.0.2
 
 ### Patch Changes
