@@ -10,7 +10,7 @@ Usamos o TSUP pra fazer a conversão do TS pra JS, não fazemos isso com o próp
 - Workspaces: Um array que possui todos os pacotes que compõem o monorepo.
 
 ### Importante lembrar que:
-- Além disso, dentro do projeto react, colocamos "@ignite-ui/tokens": "*", no package.json, oque faz com que o pacote de tokens seja uma dependência dentro do pacote react, porém, uma dependência local dentro do monorepo.
+- Além disso, dentro do projeto react, colocamos "@mestanza-ignite-ui/tokens": "*", no package.json, oque faz com que o pacote de tokens seja uma dependência dentro do pacote react, porém, uma dependência local dentro do monorepo.
 - Remover os package-lock.json dos repos internos, e instalar a node_modules no projeto base.
 - Pra podermos importar algo de um projeto no outro, precisamos alterar o caminho do main dentro do package.json do projeto que vai ser a dependência pro arquivo index dentro da pasta dist.
 - É necessário colocarmos o module, pra especificar o arquivo main do ESM pra caso vá ser utilizado.

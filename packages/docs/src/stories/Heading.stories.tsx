@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Heading, HeadingProps } from '@ignite-ui/react'
+import { Heading, HeadingProps } from '@mestanza-ignite-ui/react'
 
 // Funcina como global para todas as variantes
 export default {
