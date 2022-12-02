@@ -1,5 +1,11 @@
 # @mestanza-ignite-ui/ts-config
 
+## 1.0.2
+
+### Patch Changes
+
+- Fix all imports
+
 ## 1.0.1
 
 ### Patch Changes
