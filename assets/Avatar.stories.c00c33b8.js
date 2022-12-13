@@ -1,0 +1,2 @@
+import{A as t}from"./index.9ae2694d.js";import"./index.e09b6920.js";import"./iframe.96bbee41.js";import"./index.a78cde82.js";import"./jsx-runtime.29c5334e.js";const n={title:"Data display/Avatar",component:t,args:{src:"https://github.com/brunomestanza.png",alt:"Bruno Mestanza"},argTypes:{src:{control:{type:"text"}}}},p={},c={args:{src:void 0}},e=["Primary","WithFallback"];export{p as Primary,c as WithFallback,e as __namedExportsOrder,n as default};
+//# sourceMappingURL=Avatar.stories.c00c33b8.js.map
