@@ -1,5 +1,9 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Tooltip, TooltipProps } from '@mestanza-ignite-ui/react'
+import {
+  Tooltip,
+  TooltipProvider,
+  TooltipProps,
+} from '@mestanza-ignite-ui/react'
 
 // Funcina como global para todas as variantes
 export default {
@@ -22,6 +26,11 @@ export default {
       },
     },
   },
+  decorators: [
+    (Story) => {
+      return <TooltipProvider>{Story()}</TooltipProvider>
+    },
+  ],
 } as Meta<TooltipProps>
 
 export const Primary: StoryObj<TooltipProps> = {}
